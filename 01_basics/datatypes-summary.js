@@ -70,3 +70,28 @@ console.log(typeof myfunction); // output: function
 console.log(typeof myObj); // output: object
 
 
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+//* Stack memory(primitive) , heap memory(non - premitive)
+
+let myYoutubename = "hiteshcoudharydotcom"
+let anothername = myYoutubename
+console.log(myYoutubename); // output: hiteshcoudharydotcom
+console.log(anothername); // output: hiteshcoudharydotcom
+
+anothername = "Chaiaurcode";
+console.log(myYoutubename); // output: hiteshcoudharydotcom
+console.log(anothername); // output: Chaiaurcode
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@upi"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email); // output: hitesh@google.com
+console.log(userTwo.email); // output: hitesh@google.com
+
