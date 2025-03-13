@@ -15,6 +15,18 @@ let stringNumber = String(someNumber)
 console.log(stringNumber); // "33"
 console.log(typeof(stringNumber));
 
+// ****************************** Operations ****************************** //
+
+// 1. Arithmetic Operations
+
+
+
+
+
+
+
+
+
 // '33' => 33
 // '33abc' => NaN (Not a Number)
 // true => 1
