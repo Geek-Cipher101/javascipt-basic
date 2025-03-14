@@ -25,4 +25,20 @@ console.log(newStringOne); // prints   hfiiwf
 
 //? trim() method is used to remove the leading and trailing spaces from the string
 
-console.log(newStringOne.trim()); // prints hfiiwf  n bn 
+console.log(newStringOne.trim()); // prints hfiiwf
+
+const url = "Akshat%300.nigam@google.com"
+console.log(url.replace('%300','___--___')); // Akshat___--___.nigam@google.com
+
+console.log(url.includes('akshat')); // false
+
+console.log(gameName.split(" ")); // prints ['Game', 'of', 'Thrones']
+console.log(gameName.split("")); // prints [
+//     'G', 'a', 'm', 'e',
+//     ' ', 'o', 'f', ' ',
+//     'T', 'h', 'r', 'o',
+//     'n', 'e', 's'
+//   ]
+console.log(gameName.split(" ", 2)); // prints ['Game', 'of'] 
+console.log(gameName.split(" ", 3)); // prints [ 'Game', 'of', 'Thrones' ]
+
