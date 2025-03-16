@@ -33,4 +33,3 @@ console.log(typeof undefined);
 // console.log(typeof [1, 2, 3]); // object
 // console.log(typeof function(){}); // function
 // console.log(typeof Symbol("Akshat")); // symbol
-
