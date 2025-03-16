@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Code</title>
+</head>
+<body style="background-color: black; color : white">
+    
+</body>
+<script>
+    // Create a new div element
+    let div = document.createElement('div');
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title", "generateed title")
+    div .style.backgroundColor = "green"
+    div.style.padding = "12px"
+    //div.innerHTML = "Code Is Here"
+    const addText = document.createTextNode('CODE IS HERE')
+    div.appendChild(addText)
+    document.body.appendChild(div)
+</script>
+</html>
